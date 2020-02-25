@@ -56,7 +56,6 @@ function loadSchedule() {
         i = keys.length;
 
     while ( i-- ) {
-        console.log('started');
         archive[keys[i]] = localStorage.getItem(keys[i]);
         $(keys[i]).text(archive[keys[i]]);
     }
